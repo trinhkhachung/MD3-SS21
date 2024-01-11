@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let math = +prompt('Điểm môn toán')
+        console.log('Điểm môn toán là', math);
+        let sinh = +prompt('Điểm môn sinh')
+        console.log('ĐIểm môn sinh là', sinh);
+        let ly = +prompt('Điểm môn lý là')
+        console.log('Điểm môn lý là', sinh)
+        let tong = math + sinh + ly
+        console.log('Điểm tổng', tong)
+        document.write('Điểm tổng là:', tong)
+        document.write('<br>')
+        let tb = tong / 3
+        console.log('Điểm trung bình', tb);
+        document.write('Điểm trung bình là:', tb)
+        if (tb >= 8 && tb <= 10) {
+            alert("G");
+        } else if (tb >= 6.5 && tb <= 7.9) {
+            alert("K");
+        } else if (tb >= 5 && tb <= 6.4) {
+            alert("TB");
+        } else {
+            alert("YSL");
+        }
+    </script>
+</body>
+
+</html>

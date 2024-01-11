@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // ví dụ if else
+        let n = +prompt('nhập năm sinh của bạn')
+        if (!isNaN(n)) {
+            console.log('số tuổi của bạn là:', n)
+        } else {
+            console.log('không hợp lệ')
+        }
+        // ví dụ switch case
+        let a = +prompt('nhập vào số tháng')
+        switch (a) {
+            case 1:
+                console.log('tháng có 31 ngày')
+                break;
+            case 2:
+                console.log('tháng có 27 ngày')
+                break;
+            case 3:
+                console.log('tháng có 31 ngày')
+                break;
+            case 4:
+                console.log('tháng có 30 ngày')
+                break;
+            case 5:
+                console.log('tháng có 31 ngày')
+                break;
+            case 6:
+                console.log('tháng có 30 ngày')
+                break;
+            case 7:
+                console.log('tháng có 31 ngày')
+                break;
+            case 8:
+                console.log('tháng có 31 ngày')
+                break;
+            case 9:
+                console.log('tháng có 30 ngày')
+                break;
+            case 10:
+                console.log('tháng có 31 ngày')
+                break;
+            case 11:
+                console.log('tháng có 30 ngày')
+                break;
+            case 12:
+                console.log('tháng có 31 ngày')
+                break;
+
+        }
+    //       so sánh if else và swich case
+    //         if                                                               swich
+    //             - Có thể sử dụng để so sánh lớn hơn, nhỏ hơn,..   | -Chỉ có thể sử dụng để so sánh bằng, hoặc khác nhau
+    //                 - Mỗi câu lệnh if có một biểu thức điều kiện, với | -Tất cả các trường hợp(case) đều so sánh với 
+    //  giá trị trả về là true hoặc false | giá trị của biểu thức điều kiện duy nhất
+    //             - Biểu thức điều kiện cần trả về giá trị kiểu | -Biểu thức điều kiện cần trả về giá trị là kiểu
+    //         boolean | byte, short, char, int hoặc string
+    //             - Chỉ có một khối lệnh được thực thi nếu điều | -Nếu điều kiện đúng mà không có câu lệnh 
+    //  kiện đúng |    break thì tất cả các khối lệnh ở phía sau cũng
+    //             | được thực thi               
+    </script>
+</body>
+
+</html>
